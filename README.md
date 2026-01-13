@@ -1,6 +1,27 @@
 # Django Todo App
 
-A complete Todo web application built with Django, featuring a modern UI with Tailwind CSS.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Railway-blueviolet?style=for-the-badge&logo=railway)](https://ostadbatch-09-production-67ef.up.railway.app/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://python.org)
+[![Django](https://img.shields.io/badge/Django-4.x-green?style=for-the-badge&logo=django)](https://djangoproject.com)
+
+## 🔗 Live Demo
+
+**Try the app now:** [https://ostadbatch-09-production-67ef.up.railway.app/](https://ostadbatch-09-production-67ef.up.railway.app/)
+
+---
+
+## 📋 About This Project
+
+A full-featured **Todo web application** built with Django, designed to help users manage their daily tasks efficiently. This project demonstrates CRUD operations, modern UI design with Tailwind CSS, and cloud deployment using Railway.
+
+### Key Highlights
+
+- 🎯 **Full CRUD functionality** - Create, Read, Update, and Delete tasks
+- 🎨 **Modern responsive UI** - Beautiful interface with Tailwind CSS
+- ⚡ **AJAX-powered** - Smooth task completion toggle without page reload
+- 📅 **Due date tracking** - Set and manage task deadlines
+- 🔍 **Smart filtering** - Filter tasks by All, Active, or Completed status
+- 🚀 **Production ready** - Deployed and accessible online
 
 ## Features
 
@@ -148,7 +169,7 @@ This project is open source and available for educational purposes.
 
 ## Deployment
 
-This application is deployed and available live on Render.
+This application is deployed and available live on **Railway**.
 
 ### Live Demo
 
@@ -156,7 +177,7 @@ This application is deployed and available live on Render.
 
 ### Deployment Platform
 
-- **Host**: [Render](https://render.com)
+- **Host**: [Railway](https://railway.app)
 - **Service Type**: Web Service
 - **Build Command**: `pip install -r requirements.txt`
 - **Start Command**: `gunicorn todo_project.wsgi:application`
