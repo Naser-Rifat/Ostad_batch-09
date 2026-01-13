@@ -30,32 +30,38 @@ A complete Todo web application built with Django, featuring a modern UI with Ta
 ### Installation
 
 1. **Clone or navigate to the project directory:**
+
    ```bash
    cd /path/to/todo_project
    ```
 
 2. **Create a virtual environment (recommended):**
+
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Run migrations:**
+
    ```bash
    python manage.py migrate
    ```
 
 5. **Create a superuser (optional, for admin access):**
+
    ```bash
    python manage.py createsuperuser
    ```
 
 6. **Run the development server:**
+
    ```bash
    python manage.py runserver
    ```
@@ -128,6 +134,7 @@ python manage.py test
 ### Making Changes
 
 1. **Model Changes**: After modifying `models.py`, run:
+
    ```bash
    python manage.py makemigrations
    python manage.py migrate
@@ -139,3 +146,25 @@ python manage.py test
 
 This project is open source and available for educational purposes.
 
+## Deployment
+
+This application is deployed and available live on Render.
+
+### Live Demo
+
+🔗 **Live URL**: [https://ostad-batch-09-1-cwz9.onrender.com](https://ostad-batch-09-1-cwz9.onrender.com)
+
+### Deployment Platform
+
+- **Host**: [Render](https://render.com)
+- **Service Type**: Web Service
+- **Build Command**: `pip install -r requirements.txt`
+- **Start Command**: `gunicorn todo_project.wsgi:application`
+
+### Environment Variables (for deployment)
+
+When deploying to production, ensure the following are configured:
+
+- `SECRET_KEY` - A secure, unique secret key
+- `DEBUG` - Set to `False` in production
+- `ALLOWED_HOSTS` - Include your deployment domain
