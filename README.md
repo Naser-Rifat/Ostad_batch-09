@@ -152,7 +152,7 @@ This application is deployed and available live on Render.
 
 ### Live Demo
 
-🔗 **Live URL**: [https://ostad-batch-09-1-cwz9.onrender.com](https://ostad-batch-09-1-cwz9.onrender.com)
+🔗 **Live URL**: [https://ostadbatch-09-production-67ef.up.railway.app/](https://ostadbatch-09-production-67ef.up.railway.app/)
 
 ### Deployment Platform
 
