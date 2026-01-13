@@ -7,7 +7,6 @@
 ## 🔗 Live Demo
 
 **Try the app now:** [https://ostadbatch-09-production-67ef.up.railway.app/](https://ostadbatch-09-production-67ef.up.railway.app/)
-
 ---
 
 ## 📋 About This Project
